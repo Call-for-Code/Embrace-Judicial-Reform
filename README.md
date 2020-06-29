@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Diverse representation
 
 Technology has the power to drive action. And right now, a call to action is needed to eradicate racism. **Black lives matter.**
@@ -140,3 +141,8 @@ Contribution details are in the [CONTRIBUTING.md](CONTRIBUTING.md) document. Com
 #### License
 
 This solution starter is made available under the [Apache 2 License](LICENSE).
+=======
+# Police & judicial reform and accountability
+
+From traffic stops and arrests to sentencing and parole decisions, use technology to better analyze real-world data, provide insights and make recommendations that will drive racial equality and reform across criminal justice and public safety.
+>>>>>>> a03bec282ecc78870b440d7d9df7501c4b9e5c29
