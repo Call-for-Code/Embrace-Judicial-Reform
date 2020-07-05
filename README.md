@@ -1,4 +1,4 @@
-# Judicial reform
+# Emb(race): Judicial reform
 
 Technology has the power to drive action. And right now, a call to action is needed to eradicate racism. **Black lives matter.**
 
@@ -26,8 +26,8 @@ This is one of three open source projects underway as part of the [Call for Code
 ## Problem statements
 
 1. [Police interactions with the black community disproportionately end in escalation](#problem-statement-1)
-2. [Real-word bias influences inputs into algorithms, creating algorithmic biases in technology](#problem-statement-2)
-3. [Bias is learned and perpetuated in different ways](#problem-statement-3)
+2. [Lack of transparent and accurate data available to assess police behavioral infractions](#problem-statement-2)
+3. [People in the Black Community are faced with harsher downstream effects](#problem-statement-3)
 
 ## Problem statement 1
 
