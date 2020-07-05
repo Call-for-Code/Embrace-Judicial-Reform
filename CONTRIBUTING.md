@@ -24,3 +24,7 @@ You are also free to provide documentation or notes through the wiki. The change
 3. Submit a pull request.
 4. Handle any feedback before the request is merged.
 5. Accept our sincere Thank You!
+
+## Support
+
+If you have any questions about how to contribute, reach out to the team through the [support resources](SUPPORT.md).
