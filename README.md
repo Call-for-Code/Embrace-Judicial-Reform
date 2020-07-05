@@ -22,7 +22,6 @@ This is one of three open source projects underway as part of the [Call for Code
    * IBMers: [Learn](https://w3.ibm.com/developer/opensource/learn/certify/) about open source and [certify](https://yourlearning.ibm.com/activity/EL01-00001160) before contributing.
    * [Open issues](CONTRIBUTING.md#opening-issues), [submit pull requests](CONTRIBUTING.md#submitting-pull-requests), or [edit the wiki](CONTRIBUTING.md#editing-the-wiki) for this repository.
 
-
 ## Problem statements
 
 1. [Police interactions with the black community disproportionately end in escalation](#problem-statement-1)
@@ -114,7 +113,6 @@ _At this time, datasets are provided for reference only. Do not include dataset 
 
 * TBD
 
-
 ## Problem statement 3
 
 People in the Black Community are faced with harsher downstream effects (charged at higher rates, assigned more significant charges, convicted at higher rates, given longer sentences, and denied parole more often) than people of other races for similar offenses.
@@ -156,7 +154,6 @@ People in the Black Community are faced with harsher downstream effects (charged
 _At this time, datasets are provided for reference only. Do not include dataset information in any solutions until further notice._
 
 * TBD
-
 
 ## Support
 
