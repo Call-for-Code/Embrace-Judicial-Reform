@@ -1,6 +1,6 @@
 ---
 name: Suggestion
-about: Suggest an idea for this project
+about: Suggest an change for this project
 title: ''
 labels: ''
 assignees: ''

@@ -1,6 +1,6 @@
 ---
 name: Technical contribution
-about: Suggest an idea for this project
+about: Suggest a technical solution or approach for this project
 title: ''
 labels: ''
 assignees: ''
