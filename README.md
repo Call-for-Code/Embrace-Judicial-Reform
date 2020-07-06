@@ -59,7 +59,7 @@ Police interactions with members of the black community disproportionately end i
 * [Deaths Due to Use of Lethal Force by Law Enforcement](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6080222/)
 * [A large-scale analysis of racial disparities in police stops across the United States](https://www.nature.com/articles/s41562-020-0858-1)
 * [To predict and serve?](https://rss.onlinelibrary.wiley.com/doi/full/10.1111/j.1740-9713.2016.00960.x)
-* [Runaway Feedback Loops in Predictive Policing](http://proceedings.mlr.press/v81/ensign18a.html
+* [Runaway Feedback Loops in Predictive Policing](http://proceedings.mlr.press/v81/ensign18a.html)
 
 #### Documents and other media
 
@@ -120,7 +120,7 @@ People in the Black Community are faced with harsher downstream effects (charged
 ### Hills (who, what, and wow)
 
 1. Judges can be required to use technology that evaluates sentencing criteria enabling them to provide equitable sentencing outcomes and mitigate bias in the sentencing process.
-   * The general public can access standard data repository regarding sentencing outcomes so that excessive sentencing can be identified and automatically  flagged for the appeals process.
+   * The general public can access standard data repository regarding sentencing outcomes so that excessive sentencing can be identified and automatically flagged for the appeals process.
 
 ### How tech can help
 
