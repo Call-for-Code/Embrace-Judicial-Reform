@@ -1,6 +1,6 @@
 ---
 name: Idea
-about: Create a new idea proposal for discussion
+about: Start a conversation about a a new idea
 title: ''
 labels: ''
 assignees: ''
