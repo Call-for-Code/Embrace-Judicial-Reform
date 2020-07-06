@@ -24,13 +24,13 @@ This is one of three open source projects underway as part of the [Call for Code
 
 ## Problem statements
 
-1. [Police interactions with the black community disproportionately end in escalation](#problem-statement-1)
+1. [Police interactions with the Black community disproportionately end in escalation](#problem-statement-1)
 2. [Lack of transparent and accurate data available to assess police behavioral infractions](#problem-statement-2)
 3. [People in the Black Community are faced with harsher downstream effects](#problem-statement-3)
 
 ## Problem statement 1
 
-Police interactions with members of the black community disproportionately end in unnecessary and avoidable escalation.
+Police interactions with members of the Black community disproportionately end in unnecessary and avoidable escalation.
 
 ### Hills (who, what, and wow)
 
@@ -64,7 +64,7 @@ Police interactions with members of the black community disproportionately end i
 #### Documents and other media
 
 * [Not just George Floyd: Police departments have 400-year history of racism](https://www.usatoday.com/story/news/nation/2020/06/07/black-lives-matters-police-departments-have-long-history-racism/3128167001/)
-* [Getting killed by police is a leading cause of death for young black men in America](https://www.latimes.com/science/story/2019-08-15/police-shootings-are-a-leading-cause-of-death-for-black-men)
+* [Getting killed by police is a leading cause of death for young Black men in America](https://www.latimes.com/science/story/2019-08-15/police-shootings-are-a-leading-cause-of-death-for-black-men)
 * [The Air We Breathe: Implicit Bias And Police Shootings](https://www.npr.org/transcripts/876073130)
 * [Bias](https://www.finishlinefeaturefilms.com/bias/)
 * [Number of people shot to death by the police in the United States from 2017 to 2020, by race](https://www.statista.com/statistics/585152/people-shot-to-death-by-us-police-by-race/)
@@ -147,7 +147,7 @@ People in the Black Community are faced with harsher downstream effects (charged
 #### Documents and other media
 
 * [13th Documentary](https://www.youtube.com/watch?v=krfcq5pF8u8)
-* [Slavery gave America a fear of black people and a taste for violent punishment. Both still define our criminal-justice system.](https://www.nytimes.com/interactive/2019/08/14/magazine/prison-industrial-complex-slavery-racism.html)
+* [Slavery gave America a fear of Black people and a taste for violent punishment. Both still define our criminal-justice system.](https://www.nytimes.com/interactive/2019/08/14/magazine/prison-industrial-complex-slavery-racism.html)
 
 #### Datasets
 
