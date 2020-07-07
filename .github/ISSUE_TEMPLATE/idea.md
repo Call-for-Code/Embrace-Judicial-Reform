@@ -1,6 +1,6 @@
 ---
 name: Idea
-about: Start a conversation about a a new idea
+about: Start a conversation about a new idea
 title: ''
 labels: ''
 assignees: ''
@@ -9,8 +9,10 @@ assignees: ''
 
 **Theme:**
 
-**Idea:**
+**Brief description of your idea:**
 
-**Uniqueness:**
+**What makes your idea unique?:**
 
-**Impact if implemented:**
+**What would be the impact of your idea if implemented?:**
+
+**Skills to contribute (e.g. development, architecture, research, design or anything else):**
