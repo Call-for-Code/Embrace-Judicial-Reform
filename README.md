@@ -83,47 +83,27 @@ Police interactions with members of the Black community disproportionately end
 
 #### Publications
 
-* [Proactive Policing: Effects on Crime and Communities]
-(https://www.nap.edu/read/24928/chapter/9)
-* [Race and police killings: examining the links between racial threat and
- police shootings of Black Americans]
- (https://www.tandfonline.com/doi/abs/10.1080/15377938.2020.1774952?journalCode=wecj20)
-* [It's not depersonalization, It's emotional labor: Examining surface acting
- and use-of-force with evidence from the US]
- (https://www.sciencedirect.com/science/article/pii/S1756061619303283?via%3Dihub)
-* [Do Police Officers in the USA Protect and Serve All Citizens Equally?]
-(https://www.mdpi.com/2076-0760/7/10/190/htm)
-* [Risk of being killed by police use of force in the United States by age,
- race–ethnicity, and sex](https://www.pnas.org/content/116/34/16793)
-* [Deaths Due to Use of Lethal Force by Law Enforcement]
-(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6080222/)
-* [A large-scale analysis of racial disparities in police stops across the
- United States](https://www.nature.com/articles/s41562-020-0858-1)
-* [To predict and serve?]
-(https://rss.onlinelibrary.wiley.com/doi/full/10.1111/j.1740-9713.2016.00960.x)
-* [Runaway Feedback Loops in Predictive Policing]
-(http://proceedings.mlr.press/v81/ensign18a.html)
+* [Proactive Policing: Effects on Crime and Communities](https://www.nap.edu/read/24928/chapter/9)
+* [Race and police killings: examining the links between racial threat and police shootings of Black Americans](https://www.tandfonline.com/doi/abs/10.1080/15377938.2020.1774952?journalCode=wecj20)
+* [It's not depersonalization, It's emotional labor: Examining surface acting and use-of-force with evidence from the US](https://www.sciencedirect.com/science/article/pii/S1756061619303283?via%3Dihub)
+* [Do Police Officers in the USA Protect and Serve All Citizens Equally?](https://www.mdpi.com/2076-0760/7/10/190/htm)
+* [Risk of being killed by police use of force in the United States by age, race–ethnicity, and sex](https://www.pnas.org/content/116/34/16793)
+* [Deaths Due to Use of Lethal Force by Law Enforcement](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6080222/)
+* [A large-scale analysis of racial disparities in police stops across the United States](https://www.nature.com/articles/s41562-020-0858-1)
+* [To predict and serve?](https://rss.onlinelibrary.wiley.com/doi/full/10.1111/j.1740-9713.2016.00960.x)
+* [Runaway Feedback Loops in Predictive Policing](http://proceedings.mlr.press/v81/ensign18a.html)
 
 #### Documents and other media
 
-* [Not just George Floyd: Police departments have 400-year history of racism]
-(https://www.usatoday.com/story/news/nation/2020/06/07/black-lives-matters-police-departments-have-long-history-racism/3128167001/)
-* [Getting killed by police is a leading cause of death for young Black men in
- America]
- (https://www.latimes.com/science/story/2019-08-15/police-shootings-are-a-leading-cause-of-death-for-black-men)
-* [The Air We Breathe: Implicit Bias And Police Shootings]
-(https://www.npr.org/transcripts/876073130)
+* [Not just George Floyd: Police departments have 400-year history of racism](https://www.usatoday.com/story/news/nation/2020/06/07/black-lives-matters-police-departments-have-long-history-racism/3128167001/)
+* [Getting killed by police is a leading cause of death for young Black men in America](https://www.latimes.com/science/story/2019-08-15/police-shootings-are-a-leading-cause-of-death-for-black-men)
+* [The Air We Breathe: Implicit Bias And Police Shootings](https://www.npr.org/transcripts/876073130)
 * [Bias](https://www.finishlinefeaturefilms.com/bias/)
-* [Number of people shot to death by the police in the United States from 2017
- to 2020, by race]
- (https://www.statista.com/statistics/585152/people-shot-to-death-by-us-police-by-race/)
+* [Number of people shot to death by the police in the United States from 2017 to 2020, by race](https://www.statista.com/statistics/585152/people-shot-to-death-by-us-police-by-race/)
 * [Mapping Police Violence](https://mappingpoliceviolence.org/)
-* [Police use of deadly force in the United States]
-(https://en.wikipedia.org/wiki/Police_use_of_deadly_force_in_the_United_States)
-* [National Violent Death Reporting System (NVDRS)]
-(https://www.cdc.gov/violenceprevention/datasources/nvdrs/index.html)
-* [What the data really says about police and racial bias]
-(https://www.vanityfair.com/news/2016/07/data-police-racial-bias)
+* [Police use of deadly force in the United States](https://en.wikipedia.org/wiki/Police_use_of_deadly_force_in_the_United_States)
+* [National Violent Death Reporting System (NVDRS)](https://www.cdc.gov/violenceprevention/datasources/nvdrs/index.html)
+* [What the data really says about police and racial bias](https://www.vanityfair.com/news/2016/07/data-police-racial-bias)
 
 #### Datasets
 
@@ -165,22 +145,15 @@ The lack of transparent and accurate data available to assess police behavioral
 
 #### Publications
 
-* [Causal peer effects in police misconduct]
-(https://www.nature.com/articles/s41562-019-0612-8.epdf)
+* [Causal peer effects in police misconduct](https://www.nature.com/articles/s41562-019-0612-8.epdf)
 
 #### Documents and other media
 
-* [Public Radio piece on transparency of police misconduct and transparency
-/accessibility by State](https://project.wnyc.org/disciplinary-records/)
-* [Study finds misconduct spreads among police officers like contagion]
-(https://www.pbs.org/wgbh/nova/article/police-misconduct-peer-effects/)
-* [Contacts Between Police And The Public, 2015]
-(https://www.bjs.gov/index.cfm?ty=pbdetail&iid=6406)
-* [National Justice Database]
-(https://policingequity.org/what-we-do/national-justice-database)
-* [We found 85,000 cops who’ve been investigated for misconduct. Now you can
- read their records.]
- (https://www.usatoday.com/in-depth/news/investigations/2019/04/24/usa-today-revealing-misconduct-records-police-cops/3223984002/)
+* [Public Radio piece on transparency of police misconduct and transparency/accessibility by State](https://project.wnyc.org/disciplinary-records/)
+* [Study finds misconduct spreads among police officers like contagion](https://www.pbs.org/wgbh/nova/article/police-misconduct-peer-effects/)
+* [Contacts Between Police And The Public, 2015](https://www.bjs.gov/index.cfm?ty=pbdetail&iid=6406)
+* [National Justice Database](https://policingequity.org/what-we-do/national-justice-database)
+* [We found 85,000 cops who’ve been investigated for misconduct. Now you can read their records.](https://www.usatoday.com/in-depth/news/investigations/2019/04/24/usa-today-revealing-misconduct-records-police-cops/3223984002/)
 
 #### Datasets
 
@@ -213,38 +186,24 @@ People in the Black Community are faced with harsher downstream effects
 
 #### References
 
-* [Black People Are Charged at a Higher Rate Than Whites. What if Prosecutors
- Didn’t Know Their Race?]
- (https://www.nytimes.com/2019/06/12/us/prosecutor-race-blind-charging.html)
-* [Machine Bias]
-(https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)
-* [How We Analyzed the COMPAS Recidivism Algorithm]
-(https://www.propublica.org/article/how-we-analyzed-the-compas-recidivism-algorithm)
+* [Black People Are Charged at a Higher Rate Than Whites. What if Prosecutors Didn’t Know Their Race?](https://www.nytimes.com/2019/06/12/us/prosecutor-race-blind-charging.html)
+* [Machine Bias](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)
+* [How We Analyzed the COMPAS Recidivism Algorithm](https://www.propublica.org/article/how-we-analyzed-the-compas-recidivism-algorithm)
 
 #### Publications
 
-* [Contacts Between Police and the Public, 2015]
-(https://www.bjs.gov/content/pub/pdf/cpp15.pdf)
-* [Racial Disparity in Federal Criminal Sentences]
-(https://repository.law.umich.edu/cgi/viewcontent.cgi?article=2413&context=articles)
-* [Racial, Ethnic, and Gender Disparities In Federal Sentencing Today]
-(https://www.ussc.gov/sites/default/files/pdf/research-and-publications/research-projects-and-surveys/miscellaneous/15-year-study/chap4.pdf)
-* [The Growing Racial Disparity in Prison Time]
-(https://www.themarshallproject.org/2019/12/03/the-growing-racial-disparity-in-prison-time)
+* [Contacts Between Police and the Public, 2015](https://www.bjs.gov/content/pub/pdf/cpp15.pdf)
+* [Racial Disparity in Federal Criminal Sentences](https://repository.law.umich.edu/cgi/viewcontent.cgi?article=2413&context=articles)
+* [Racial, Ethnic, and Gender Disparities In Federal Sentencing Today](https://www.ussc.gov/sites/default/files/pdf/research-and-publications/research-projects-and-surveys/miscellaneous/15-year-study/chap4.pdf)
+* [The Growing Racial Disparity in Prison Time](https://www.themarshallproject.org/2019/12/03/the-growing-racial-disparity-in-prison-time)
 * [Racial Disparity](https://www.sentencingproject.org/issues/racial-disparity/)
-* [Unequal Treatment: Racial and Ethnic Disparities in Miami-Dade Criminal
- Justice]
- (https://www.aclufl.org/sites/default/files/6440miamidadedisparities20180715spreads.pdf)
-* [From police to parole, black and white Americans differ widely in their
- views of criminal justice system]
- (https://www.pewresearch.org/fact-tank/2019/05/21/from-police-to-parole-black-and-white-americans-differ-widely-in-their-views-of-criminal-justice-system/)
+* [Unequal Treatment: Racial and Ethnic Disparities in Miami-Dade Criminal Justice](https://www.aclufl.org/sites/default/files/6440miamidadedisparities20180715spreads.pdf)
+* [From police to parole, black and white Americans differ widely in their views of criminal justice system](https://www.pewresearch.org/fact-tank/2019/05/21/from-police-to-parole-black-and-white-americans-differ-widely-in-their-views-of-criminal-justice-system/)
 
 #### Documents and other media
 
 * [13th Documentary](https://www.youtube.com/watch?v=krfcq5pF8u8)
-* [Slavery gave America a fear of Black people and a taste for violent
- punishment. Both still define our criminal-justice system.]
- (https://www.nytimes.com/interactive/2019/08/14/magazine/prison-industrial-complex-slavery-racism.html)
+* [Slavery gave America a fear of Black people and a taste for violent punishment. Both still define our criminal-justice system.](https://www.nytimes.com/interactive/2019/08/14/magazine/prison-industrial-complex-slavery-racism.html)
 
 #### Datasets
 
