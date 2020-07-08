@@ -1,46 +1,78 @@
 # Emb(race): Police and Judicial Reform and Accountability
 
-Technology has the power to drive action. And right now, a call to action is needed to eradicate racism. **Black lives matter.**
+Technology has the power to drive action. And right now, a call to action is
+ needed to eradicate racism. **Black lives matter.**
 
-We recognize technology alone cannot fix hundreds of years of racial injustice and inequality, but when we put it in the hands of the Black community and their supporters, technology can begin to bridge a gap. To start a dialogue. To identify areas where technology can help pave a road to progress.
+We recognize technology alone cannot fix hundreds of years of racial injustice
+ and inequality, but when we put it in the hands of the Black community and
+ their supporters, technology can begin to bridge a gap. To start a dialogue. To
+ identify areas where technology can help pave a road to progress.
 
-This project is an effort to leverage technology to prevent, detect, and remediate bias and misrepresentation in the workplace, products, and society. For corporations to succeed, it is critical to have Black representation at every level.
+This project is an effort to leverage technology to prevent, detect, and
+ remediate bias and misrepresentation in the workplace, products, and society.
+ For corporations to succeed, it is critical to have Black representation at
+ every level.
 
-This is one of three open source projects underway as part of the [Call for Code Emb(race) Spot Challenge](https://github.com/topics/embrace-call-for-code) led by contributors from IBM and Red Hat.
+This is one of three open source projects underway as part of the [Call for 
+Code Emb(race) Spot Challenge](https://github.com/topics/embrace-call-for-code)
+ led by contributors from IBM and Red Hat.
 
 ## Contribute to this effort
 
 1. **Engage**
-   * Understand the [problem statements](#problem-statements) in this solution starter GitHub repository.   
-   * Connect with colleagues in [Slack](SLACK.md) to join one of the teams working on solutions to this problem.
+   * Understand the [problem statements](#problem-statements) in this solution
+   starter GitHub repository.   
+   * Connect with colleagues in [Slack](SLACK.md) to join one of the teams
+   working on solutions to this problem.
 
 2. **Envision**
-   * Imagine the measurable end result of a technology innovation for one of the problem statements.
-   * Plot a path from the current situation to that outcome. You can use [Mural](https://www.mural.co/) and [Slack](SLACK.md) to collaborate.
+   * Imagine the measurable end result of a technology innovation for one of
+   the problem statements.
+   * Plot a path from the current situation to that outcome. You can use [Mural]
+   (https://www.mural.co/) and [Slack](SLACK.md) to collaborate.
 
 3. **Contribute**
-   * IBMers: [Learn](https://w3.ibm.com/developer/opensource/learn/certify/) about open source and [certify](https://yourlearning.ibm.com/activity/EL01-00001160) before contributing.
-   * [Open issues](CONTRIBUTING.md#opening-issues), [submit pull requests](CONTRIBUTING.md#submitting-pull-requests), or [edit the wiki](CONTRIBUTING.md#editing-the-wiki) for this repository.
+   * IBMers: [Learn](https://w3.ibm.com/developer/opensource/learn/certify/)
+   about open source and 
+   [certify](https://yourlearning.ibm.com/activity/EL01-00001160) before
+   contributing.
+   * [Open issues](CONTRIBUTING.md#opening-issues), [submit pull requests]
+   (CONTRIBUTING.md#submitting-pull-requests), or [edit the wiki]
+   (CONTRIBUTING.md#editing-the-wiki) for this repository.
 
 ## Problem statements
 
-1. [Police interactions with the Black community disproportionately end in escalation](#problem-statement-1)
-2. [Lack of transparent and accurate data available to assess police behavioral infractions](#problem-statement-2)
-3. [People in the Black Community are faced with harsher downstream effects](#problem-statement-3)
+1. [Police interactions with the Black community disproportionately end in 
+escalation](#problem-statement-1)
+2. [Lack of transparent and accurate data available to assess police behavioral
+ infractions](#problem-statement-2)
+3. [People in the Black Community are faced with harsher downstream effects]
+(#problem-statement-3)
 
 ## Problem statement 1
 
-Police interactions with members of the Black community disproportionately end in unnecessary and avoidable escalation.
+Police interactions with members of the Black community disproportionately end
+ in unnecessary and avoidable escalation.
 
 ### Hills (who, what, and wow)
 
-1. The public will have access to factual data on police behavioral infractions so that police officers can be held publicly accountable for their actions. 
-   * Law enforcement agencies can flag officers with behavior infractions that remain visible across jurisdictions and can use the infractions as input for relevant actions (hiring, firing, remediation, etc.)
+1. The public will have access to factual data on police behavioral infractions
+ so that police officers can be held publicly accountable for their actions. 
+   * Law enforcement agencies can flag officers with behavior infractions that
+   remain visible across jurisdictions and can use the infractions as input for
+   relevant actions (hiring, firing, remediation, etc.)
 
-2. Law enforcement has technology embedded in their equipment to help objectively assess accurate threat level and providesguidance on appropriate threat response in real time.
+2. Law enforcement has technology embedded in their equipment to help
+ objectively assess accurate threat level and providesguidance on appropriate
+ threat response in real time.
 
-3. Law enforcement agencies have access to free technology which identifies both singular incidents and behavioral patterns so that regular data-driven evaluations of policing outcomes take place.
-   * Law Enforcement agencies and governmental leadership are automatically required to respond with actions and remediation based on the evaluation reports so that they are held accountable for addressing surfaced issues within 14 days.
+3. Law enforcement agencies have access to free technology which identifies both
+ singular incidents and behavioral patterns so that regular data-driven
+ evaluations of policing outcomes take place.
+   * Law Enforcement agencies and governmental leadership are automatically
+   required to respond with actions and remediation based on the evaluation
+   reports so that they are held accountable for addressing surfaced issues
+   within 14 days.
 
 
 ### How tech can help
@@ -75,23 +107,39 @@ Police interactions with members of the Black community disproportionately end i
 
 #### Datasets
 
-_At this time, datasets are provided for reference only. Do not include dataset information in any solutions until further notice._
+_At this time, datasets are provided for reference only. Do not include dataset
+ information in any solutions until further notice._
 
 * [The Stanford Open Policing Project](https://openpolicing.stanford.edu/)
 
 ## Problem statement 2
 
-The lack of transparent and accurate data available to assess police behavioral infractions means police reports can be falsified and contain other inaccuracies.
+The lack of transparent and accurate data available to assess police behavioral
+ infractions means police reports can be falsified and contain other
+ inaccuracies.
 
 ### Hills (who, what, and wow)
 
-1. Law enforcement can use technology to automatically screen and expedite police reports for inherent biases while flagging incident reports for immediate review so that issues/incidents are addressed proactively with immediate consequences.
-   * Internal affairs and civilians (such as witnesses) can both contribute to incident reports, creating a tamper-proof record with all accounts of the incident.
-   * Third parties can access a free repository of incident reports so that police brutality, harassment or other misbehavior can be objectively analyzed and trends can be identified.
+1. Law enforcement can use technology to automatically screen and expedite
+ police reports for inherent biases while flagging incident reports for
+ immediate review so that issues/incidents are addressed proactively with
+ immediate consequences.
+   * Internal affairs and civilians (such as witnesses) can both contribute to
+   incident reports, creating a tamper-proof record with all accounts of the
+   incident.
+   * Third parties can access a free repository of incident reports so that
+   police brutality, harassment or other misbehavior can be objectively analyzed
+   and trends can be identified.
 
 ### How tech can help
 
-* TBD
+* Technology can be used to measure the frequency of police behavioral
+ infractions, such as, the unnecessary use of force or other aggressive tactics,
+ and other incidents, which disproportionately target the black community. This
+ will allow for the identification of any inherent biases that may have been
+ associated with an incident. This data can subsequently be used to identify
+ malicious police practices and help to improve relationships between the police
+ and the communities which they swear to protect and serve.
 
 ### Resources
 
@@ -109,18 +157,26 @@ The lack of transparent and accurate data available to assess police behavioral 
 
 #### Datasets
 
-_At this time, datasets are provided for reference only. Do not include dataset information in any solutions until further notice._
+_At this time, datasets are provided for reference only. Do not include dataset
+ information in any solutions until further notice._
 
 * TBD
 
 ## Problem statement 3
 
-People in the Black Community are faced with harsher downstream effects (charged at higher rates, assigned more significant charges, convicted at higher rates, given longer sentences, and denied parole more often) than people of other races for similar offenses.
+People in the Black Community are faced with harsher downstream effects
+ (charged at higher rates, assigned more significant charges, convicted at
+ higher rates, given longer sentences, and denied parole more often) than
+ people of other races for similar offenses.
 
 ### Hills (who, what, and wow)
 
-1. Judges can be required to use technology that evaluates sentencing criteria enabling them to provide equitable sentencing outcomes and mitigate bias in the sentencing process.
-   * The general public can access standard data repository regarding sentencing outcomes so that excessive sentencing can be identified and automatically flagged for the appeals process.
+1. Judges can be required to use technology that evaluates sentencing criteria
+ enabling them to provide equitable sentencing outcomes and mitigate bias in
+ the sentencing process.
+   * The general public can access standard data repository regarding sentencing
+   outcomes so that excessive sentencing can be identified and automatically
+   flagged for the appeals process.
 
 ### How tech can help
 
@@ -151,7 +207,8 @@ People in the Black Community are faced with harsher downstream effects (charged
 
 #### Datasets
 
-_At this time, datasets are provided for reference only. Do not include dataset information in any solutions until further notice._
+_At this time, datasets are provided for reference only. Do not include dataset
+ information in any solutions until further notice._
 
 * TBD
 
