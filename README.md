@@ -46,8 +46,8 @@ Code Emb(race) Spot Challenge](https://github.com/topics/embrace-call-for-code)
 escalation](#problem-statement-1)
 2. [Lack of transparent and accurate data available to assess police behavioral
  infractions](#problem-statement-2)
-3. [People in the Black Community are faced with harsher downstream effects]
-(#problem-statement-3)
+3. [People in the Black Community are faced with harsher downstream 
+ effects](#problem-statement-3)
 
 ## Problem statement 1
 
