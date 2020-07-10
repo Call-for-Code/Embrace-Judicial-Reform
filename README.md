@@ -32,13 +32,13 @@ Code Emb(race) Spot Challenge](https://github.com/topics/embrace-call-for-code)
    [Mural](https://www.mural.co/) and [Slack](SLACK.md) to collaborate.
 
 3. **Contribute**
-   * IBMers: [Learn](https://w3.ibm.com/developer/opensource/learn/certify/)
-   about open source and 
-   [certify](https://yourlearning.ibm.com/activity/EL01-00001160) before
-   contributing.
-   * [Open issues](CONTRIBUTING.md#opening-issues), [submit pull requests]
-   (CONTRIBUTING.md#submitting-pull-requests), or [edit the wiki]
-   (CONTRIBUTING.md#editing-the-wiki) for this repository.
+   * IBMers: [Learn](https://w3.ibm.com/developer/opensource/learn/certify/) 
+     about open source and 
+     [certify](https://yourlearning.ibm.com/activity/EL01-00001160)
+     before contributing.
+   * [Open issues](CONTRIBUTING.md#opening-issues), 
+     [submit pull requests](CONTRIBUTING.md#submitting-pull-requests), or 
+     [edit the wiki](CONTRIBUTING.md#editing-the-wiki) for this repository.
 
 ## Problem statements
 
