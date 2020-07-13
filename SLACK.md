@@ -13,3 +13,9 @@ three teams:
 Join the [public Slack workspace](http://callforcode.org/emb-race) and 
 channel to discuss the topics and join one of the three teams: 
 [#emb-race](https://callforcode.slack.com/archives/C016HLH1ACD)
+
+## Teams
+
+Once you've joined one or both of the Slack channels above, you can [team 
+up with others](https://callforcode.org/team) who are taking on a problem 
+statement within the theme.
