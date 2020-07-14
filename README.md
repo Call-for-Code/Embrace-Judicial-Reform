@@ -24,9 +24,12 @@ can have a measurable impact on the problem statements and hills below. That
 solution can then be put to work within IBM and Red Hat, as well as society at 
 large.
 
-As an example, this repository will evolve into a piece of technology that can
+This repository is expected to evolve into a piece of technology that can
 be created and deployed, similar to the steps for other [Call for Code starter
-kits](https://github.com/Call-for-Code).
+kits](https://github.com/Call-for-Code), such as the kit for [Community 
+Cooperation](https://github.com/Call-for-Code/Solution-Starter-Kit-Cooperation-2020) 
+or [Crisis 
+Communications](https://github.com/Call-for-Code/Solution-Starter-Kit-Communication-2020).
 
 ## Contribute to this effort
 
