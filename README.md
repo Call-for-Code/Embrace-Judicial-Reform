@@ -17,6 +17,16 @@ This is one of three open source projects underway as part of the [Call for
 Code Emb(race) Spot Challenge](https://github.com/topics/embrace-call-for-code)
  led by contributors from IBM and Red Hat.
 
+## Goal for this project
+
+The desired outcome of this effort is to create a technology solution that can
+have a measurable impact the problem statements and hills below. That solution
+can then be put to work within IBM and Red Hat, as well as society at large.
+
+As an example, this repository will evolve into a piece of technology that can
+be created and deployed, similar to the steps for other [Call for Code starter
+kits](https://github.com/Call-for-Code).
+
 ## Contribute to this effort
 
 1. **Engage**
