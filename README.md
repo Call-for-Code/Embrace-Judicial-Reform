@@ -189,7 +189,8 @@ contagion](https://www.pbs.org/wgbh/nova/article/police-misconduct-peer-effects/
 Database](https://policingequity.org/what-we-do/national-justice-database)
 * [We found 85,000 cops who’ve been investigated for misconduct. Now you can
 read their records.](https://www.usatoday.com/in-depth/news/investigations/2019/04/24/usa-today-revealing-misconduct-records-police-cops/3223984002/)
-
+* [A Plan to Make Police Data Open Source Started on
+ Reddit](https://www.wired.com/story/police-accountability-data-project-open-source-reddit/)
 #### Datasets
 
 _At this time, datasets are provided for reference only. Do not include dataset
