@@ -82,11 +82,42 @@ result from the discussion
 
 ## Pull request process
 
-1. Fork the repository. 
+1. Fork the repository. If you already have a fork, update your fork to
+the current commit level.
 2. Commit your changes to your fork. 
 3. Submit a pull request.
 4. Handle any feedback before the request is merged.
 5. Accept our sincere Thank You!
+
+## Catching up to the current commit of the upstream repository
+
+1.  Make sure you don't have any uncommitted changes.  Preserve updates
+that you want to keep by copying the files somewhere.
+2.  Pull the main branch from the upstream respository to local files.
+If there are no merge conflicts the pull will create a fast forward commit
+in the local.  (easiest way to do this is with the git bash shell)
+3.  Push the local repository to your fork's remote
+4.  In the Github web interface, refresh the page for your fork.  It should
+now say that your fork is even with the upstream main.
+5.  Now you can make the desired changes in your fork, and return to step 2
+of the pull request process.
+
+Example git bash command for step 2, pull the main branch of upstream repository
+
+C:\development\git-repos\Embrace-Judicial-Reform>git pull https://github.com/Call-for-Code/Embrace-Judicial-Reform.git
+
+```Output from the command:
+From https://github.com/Call-for-Code/Embrace-Judicial-Reform
+ * branch            HEAD       -> FETCH_HEAD
+Updating d73fd06..3715c78
+Fast-forward
+ CODE_OF_CONDUCT.md |  18 ++++----
+ CONTRIBUTING.md    |  63 +++++++++++++++++++--------
+ README.md          | 123 ++++++++++++++++++++++++++++++++++-------------------
+ SLACK.md           |  15 ++++++-
+ SUPPORT.md         |   6 ++-
+ 5 files changed, 153 insertions(+), 72 deletions(-)
+```
 
 ## Support
 
