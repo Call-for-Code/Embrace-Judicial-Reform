@@ -1,21 +1,21 @@
 # Emb(race): Police and Judicial Reform and Accountability
 
 Technology has the power to drive action. And right now, a call to action is
- needed to eradicate racism. **Black lives matter.**
+needed to eradicate racism. **Black lives matter.**
 
 We recognize technology alone cannot fix hundreds of years of racial injustice
- and inequality, but when we put it in the hands of the Black community and
- their supporters, technology can begin to bridge a gap. To start a dialogue. To
- identify areas where technology can help pave a road to progress.
+and inequality, but when we put it in the hands of the Black community and
+their supporters, technology can begin to bridge a gap. To start a dialogue.
+To identify areas where technology can help pave a road to progress.
 
-This project is an effort to leverage technology to prevent, detect, and
- remediate bias and misrepresentation in the workplace, products, and society.
- For corporations to succeed, it is critical to have Black representation at
- every level.
+From traffic stops and arrests to sentencing and parole decisions, this project 
+is an effort to use technology to better analyze real-world data, provide 
+insights and make recommendations that will drive racial equality and reform 
+across criminal justice, and public safety.
 
 This is one of three open source projects underway as part of the [Call for 
-Code Emb(race) Spot Challenge](https://github.com/topics/embrace-call-for-code)
- led by contributors from IBM and Red Hat.
+Code Emb(race) Spot Challenge](https://github.com/topics/embrace-call-for-code) 
+led by contributors from IBM and Red Hat.
 
 ## Goal for this project
 
@@ -88,10 +88,14 @@ Police interactions with members of the Black community disproportionately end
    reports so that they are held accountable for addressing surfaced issues
    within 14 days.
 
-
 ### How tech can help
 
 * TBD
+
+### Teams working on this problem
+
+[See who's already working on this problem and join a 
+team](https://ibm.ent.box.com/notes/687925791944?s=jy3asjq6szq6clh0ydgreyzxotqrfcc7).
 
 ### Resources
 
@@ -173,6 +177,11 @@ The lack of transparent and accurate data available to assess police behavioral
  malicious police practices and help to improve relationships between the police
  and the communities which they swear to protect and serve.
 
+### Teams working on this problem
+
+[See who's already working on this problem and join a 
+team](https://ibm.ent.box.com/notes/687925791944?s=jy3asjq6szq6clh0ydgreyzxotqrfcc7).
+
 ### Resources
 
 #### Publications
@@ -221,6 +230,11 @@ People in the Black Community are faced with harsher downstream effects
 ### How tech can help
 
 * TBD
+
+### Teams working on this problem
+
+[See who's already working on this problem and join a 
+team](https://ibm.ent.box.com/notes/687925791944?s=jy3asjq6szq6clh0ydgreyzxotqrfcc7).
 
 ### Resources
 
