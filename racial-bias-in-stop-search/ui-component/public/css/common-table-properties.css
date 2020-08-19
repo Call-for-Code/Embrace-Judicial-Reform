@@ -1,0 +1,15 @@
+td { padding: 0.2em 1em; }
+th { text-align: center; }
+thead {
+    cursor: pointer;  
+}
+table{
+    position: relative;
+    padding: 0;
+    width: 100%;
+}
+.table-head{
+    padding: 10px 23px;
+    display: inline-block;
+}
+tr th,tr td{padding:10px 0;}
