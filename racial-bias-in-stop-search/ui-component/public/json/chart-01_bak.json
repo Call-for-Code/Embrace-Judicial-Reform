@@ -1,0 +1,23 @@
+{
+	"config": [
+		[
+			"Year",
+			"Density",
+			{
+				"role": "style"
+			}
+		],
+		["Jan", 24.9, "#05EBBA"],
+		["Feb", 29, "#05EBBA"],
+		["Mar", 35.9, "#05EBBA"],
+		["Apr", 26, "#05EBBA"],
+		["May", 37.9, "#05EBBA"],
+		["Jun", 34.9, "#05EBBA"],
+		["Jul", 24.9, "#05EBBA"],
+		["Aug", 45.9, "#05EBBA"],
+		["Sep", 15.9, "#05EBBA"],
+		["Oct", 2, "#05EBBA"],
+		["Nov", 2, "#05EBBA"],
+		["Dec", 2, "#05EBBA"]
+	]
+}
