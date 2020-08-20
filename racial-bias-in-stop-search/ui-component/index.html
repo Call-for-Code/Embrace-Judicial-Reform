@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+  <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="css/common-table-properties.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/table_1.css">
+  <link rel="stylesheet" href="css/table_2.css">
+  <link rel="stylesheet" href="css/table_3.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script type="text/javascript" ng:autobind src="http://code.angularjs.org/0.10.5/angular-0.10.5.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/controller_01.js"></script>
+  <script type="text/javascript" src="js/controller_02.js"></script>
+  <script type="text/javascript" src="js/controller_03.js"></script>
+  <script src="bower_components/jslinq/linqjs.min.js"></script>
+  <style>
+    body {
+      background-image: url("https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+      background-color: #cccccc;
+      background-repeat: no;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="top_nav">
+
+    <nav class="navbar navbar-default">
+
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <!-- <button type="button" class="navbar-toggle collapsed navbar-left" data-toggle="collapse" data-target="#navbar"
+            aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>   style="align-self:center;"-->
+          <!-- <a class="navbar-brand  navbar-right" id="time" href="#"></a> -->
+          <h1 class="navbar-left" >RACE BIAS RATE BY STATE </h1>
+          
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">CITIZENS</a></li>
+            <li><a href="#">POLICY MAKERS</a></li>
+          </ul>
+
+        </div>
+      </div>
+
+    </nav>
+
+  </div>
+
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <div class="row chart-content3">
+    <div class="col-md-6 chart-left" style="background-color: gray; margin-top: 5px;">
+      <div class="hdnw">
+
+
+        <!-- <h3 class="chart-header">FILTERS: </h3> -->
+
+
+        
+        <div class="nav-pills-content" style="margin: 10px; float: left;">
+          <ul class="nav nav-pills">
+            
+            <!-- <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                Select State
+                <img class="dropdown-caret" src="png/Sample-Dashboard_drop-down-icon.png" />
+              </a>
+              <ul id="stateDrop" class="dropdown-menu">
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                Select City
+                <img class="dropdown-caret" src="png/Sample-Dashboard_drop-down-icon.png" />
+              </a>
+              <ul id="cityDrop" class="dropdown-menu">
+              </ul>
+            </li> -->
+            <li class="dropdown">
+              <!-- <div class="form-row"> -->
+              <div class="col-auto my-1">
+                <label class="mr-sm-2 sr-only" for="inlineFormCustomState">Preference</label>
+                <select class="custom-select mr-sm-2" id="inlineFormCustomState">
+                  <option selected>Choose State</option>
+                </select>
+              </div>
+            </li>
+            <!-- <li class="dropdown">
+              <div class="col-auto my-1">
+                <label class="mr-sm-2 sr-only" for="inlineFormCustomCity">Preference</label>
+                <select class="custom-select mr-sm-2" id="inlineFormCustomCity">
+                  <option selected>Choose City</option>
+                </select>
+              </div>
+
+              </div> -->
+              </ll>
+              <li class="dropdown">
+                <!-- <div class="form-row"> -->
+                <div class="col-auto my-1">
+                  <label class="mr-sm-2 sr-only" for="inlineFormCustomRate">Preference</label>
+                  <select class="custom-select mr-sm-2" id="inlineFormCustomRate">
+                    <option selected>Choose Rating Type</option>
+                  </select>
+                </div>
+              </li>
+            <li class="dropdown">
+              <button id="Analyze" type="submit" class="btn btn-primary" style="margin-top: 3px;">Analyze</button>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+      
+
+      <script type="text/javascript">
+
+        function objectToMap(o) {
+          let m = new Map()
+          for (let k of Object.keys(o)) {
+            if (o[k] instanceof Object) {
+              m.set(k, objectToMap(o[k]))
+            }
+            else {
+              m.set(k, o[k])
+            }
+          }
+          return m
+        }
+
+        var state;
+          var city;
+          var rate;
+
+        function drawChart(data) {
+
+
+          var chart_1 = "";
+          var dataArray = [["region", "stop rate", { "role": "style" }]];
+
+          if (!data) {
+
+            var jqXhr = $.ajax({
+              url: "/json/stateResults?" + "rate=" + rate,//chart-01",
+              dataType: "json",
+              async: false
+            });
+
+            jqXhr.done(function (data) {
+              chart_1 = JSON.parse(data);
+            });
+
+            $.each(chart_1, function (index, value) {
+            dataArray.push(value );//[value.subject_race, value.stop_rate, "#05EBBA"]);
+          });
+
+          } else {
+
+            chart_1 = data;
+
+            $.each(chart_1, function (index, value) {
+            dataArray.push([value[0],value[1],value[2]]);
+          });
+
+          }
+
+
+
+          var data_l = google.visualization.arrayToDataTable(dataArray);
+          var view_l = new google.visualization.DataView(data_l);
+
+          view_l.setColumns([0, 1, 2]);
+
+          var options_l = {
+            width: '50%',
+            height: 400,
+            bar: { groupWidth: "30%" },
+            legend: { position: "none" },
+            hAxis: {
+              textStyle: { color: '#B3B3B3', fontSize: 11 },
+            },
+            vAxis: {
+              textStyle: { color: '#B3B3B3', fontSize: 11 }
+            },
+            backgroundColor: '#F2F2F2',
+          };
+
+
+
+          var chart_l = new google.visualization.ColumnChart(document.getElementById("columnchart_left"));
+          chart_l.draw(view_l, options_l);
+        }
+
+
+
+        $(document).ready(function (e) {
+
+          var date = new Date().toLocaleString(undefined, {
+            day: 'numeric',
+            month: 'numeric',
+            year: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit',
+          })
+          $("#time").text(date);
+
+          var jqXhr = $.ajax({
+            url: "/getStateDropDown",
+            dataType: "json",
+            async: false
+          });
+
+          var statemap;
+          jqXhr.done(function (data) {
+            statemap = objectToMap(JSON.parse(data));
+          });
+
+          $("#inlineFormCustomState").empty();
+
+          $("#inlineFormCustomState").append(new Option(' Choose State', ' Choose State'));
+          $("#inlineFormCustomRate").empty();
+          $("#inlineFormCustomRate").append(new Option('stop_rate', 'stop_rate'));
+          $("#inlineFormCustomRate").append(new Option('search_rate', ' search_rate'));
+         $("#inlineFormCustomRate").append(new Option('hit_rate', 'hit_rate'));
+
+
+
+          for (const [key, value] of statemap.entries()) {
+            $("#inlineFormCustomState").append(new Option(key, key));
+          }
+
+          // $('#inlineFormCustomState').change(function () {
+          //   // var options = $("#inlineFormCustomCity");
+
+          //   var selectedOpt = $("#inlineFormCustomState option:selected").text();
+
+          //   $("#inlineFormCustomCity").empty();
+          //   $("#inlineFormCustomCity").append(new Option(' Choose City', ' Choose City'));
+
+          //   statemap.get(selectedOpt)
+
+          //   for (const value of statemap.get(selectedOpt)) {
+          //     $("#inlineFormCustomCity").append(new Option(value[1], value[1]));
+          //   }
+
+          // });
+
+         
+
+          function drawChart1(config) {
+            var chart_1 = "";
+            var jqXhr = $.ajax({
+              url: "/json/formattedResults?state=" + state + "&city=" + city+ "&rate=" + rate,
+              dataType: "json",
+              async: false
+            });
+
+            jqXhr.done(function (data) {
+              chart_1 = JSON.parse(data);
+            });
+
+            drawChart(chart_1);
+
+
+          }
+
+          function drawChart2(config) {
+            var chart_1 = "";
+            var jqXhr = $.ajax({
+              url: "/json/stateFilter?state=" + state + "&rate=" + rate,
+              dataType: "json",
+              async: false
+            });
+
+            jqXhr.done(function (data) {
+              chart_1 = JSON.parse(data);
+            });
+
+            drawChart(chart_1);
+
+
+          }
+
+
+          $("#Analyze").click(function () {
+
+
+            state = $("#inlineFormCustomState option:selected").text();
+
+            city = $("#inlineFormCustomCity option:selected").text();
+            rate = $("#inlineFormCustomRate option:selected").text();
+
+            
+
+            google.charts.load("current", { packages: ['corechart'] });
+
+
+            if(state.trim()=="Choose State"){
+              google.charts.setOnLoadCallback(drawChart);
+
+            }else { //(city.trim()=="Choose City"){
+              google.charts.setOnLoadCallback(drawChart2);
+
+            }
+            
+            // else{
+            //   google.charts.setOnLoadCallback(drawChart1);
+            // }
+          });
+
+
+        });
+
+
+
+        google.charts.load("current", { packages: ['corechart'] });
+        google.charts.setOnLoadCallback(drawChart);
+
+
+      </script>
+      <div id="columnchart_left"
+        style="width: 850px; height: 400px; font-family:'Gotham-Medium';color:#B3B3B3;margin-left:-73px;margin-top: 40px;"></div>
+        <div style="align-self: center;display: flex;
+        justify-content: center;
+        padding: 10px;
+        "><h5>Any color in Red below charts indicate rate is above threshold value</h5>
+        <!-- <input type="checkbox" id="thresholdChk">  Above threshold value</input> -->
+        </div>
+
+    </div>
+
+    <!-- <div class="col-md-6 chart-right">
+        <div class="hdn">
+            <h2 class="chart-header m-clear-left">ACTIONS</h2>
+            <div class="nav-pills-content">
+                <ul class="nav nav-pills">
+                  <li class="dropdown">
+                    <a class="dropdown-toggle"
+                       data-toggle="dropdown"
+                       href="#">
+                        Jan-Dec, 2017
+                        <img class="dropdown-caret" src="png/Sample-Dashboard_drop-down-icon.png"/>
+                      </a>
+                    <ul class="dropdown-menu">
+                        <li>Jan</li>
+                        <li>Feb</li>
+                        <li>Mar</li>
+                    </ul>
+                  </li>
+                </ul>
+                <img class="approve_icon" src="png/Sample-Dashboard_approve-icon-green.png"/>
+            </div>
+        </div>
+        <script type="text/javascript">
+            
+            google.charts.load("current", {packages:['corechart']});
+            google.charts.setOnLoadCallback(drawChart);
+            
+            function drawChart(config) {
+            var chart_r="";
+            var jqXhr = $.ajax({
+                                url: "/json/chart-02",
+                                dataType: "json",
+                                async: false
+                                });
+            
+            jqXhr.done(function(data) {
+               chart_r=JSON.parse(data);
+            });
+        
+            var data_r = google.visualization.arrayToDataTable(chart_r.config);
+                var view_r  = new google.visualization.DataView(data_r);
+            
+            view_r.setColumns([0, 1, 2]);
+
+          var options_r = {
+            width: '50%',
+            height: 400,
+            bar: {groupWidth: "30%"},
+            legend: { position: "none" },
+              hAxis: {
+                textStyle:{color: '#B3B3B3',fontSize: 8},
+            },
+            vAxis: {
+                textStyle:{color: '#B3B3B3',fontSize: 8}
+            },
+            backgroundColor:'#F2F2F2',
+          };
+            
+            
+          var chart_r = new google.visualization.ColumnChart(document.getElementById("columnchart_right"));
+          chart_r.draw(view_r, options_r);
+        }
+        </script>
+        <div id="columnchart_right" style="width: 850px; height: 400px; margin-left: -80px;"></div>
+    </div>
+</div>
+        
+    <div class="col-md-4 table-1">
+        <h5 class="table-head">PENDING DA & DN VARIFICATION</h5>
+        <input type="text" name="search" >
+        
+        <table ng:controller="SortableTableCtrl_01" >      
+            <thead>
+                <tr>
+                    <th ng:repeat="(i,th) in head" ng:click="changeSorting(i) ">{{th}}
+                        <span ng:class="selectedCls(i)"></span>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng:repeat="row in body.$orderBy(sort.column, sort.descending)">
+                    <td>{{row.a}}</td>
+                    <td>{{row.b}}</td>
+                    <td>{{row.c}}</td>
+                    <td><img class="approve_icon" src="png/{{row.d}}.png"/></td> 
+                    <td><img class="approve_icon" src="png/{{row.e}}.png"/></td> 
+                </tr>
+            </tbody>
+        </table>
+    </div>   
+    <div class="col-md-4 table-2">
+        <h5 class="table-head">PENDING DO VARIFICATION</h5>
+        <input type="text" name="search" >
+        <table ng:controller="SortableTableCtrl_02">
+
+        <thead>
+            <tr>
+                <th ng:repeat="(i,th) in head" ng:click="changeSorting(i) ">{{th}}<span ng:class="selectedCls(i)"></span></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng:repeat="row in body.$orderBy(sort.column, sort.descending)">
+                <td>{{row.a}}</td>
+                <td>{{row.b}}</td>
+                <td>{{row.c}}</td>
+                <td><img class="approve_icon" src="png/{{row.d}}.png"/></td> 
+                <td><img class="approve_icon" src="png/{{row.e}}.png"/></td> 
+            </tr>
+        </tbody>
+        </table>
+    </div>
+    <div class="col-md-4 table-3">
+        <h5 class="table-head">PENDING ODOMETER VARIFICATION</h5>
+        <input type="text" name="search" ng-model="search">
+        <table ng:controller="SortableTableCtrl_03">
+
+        <thead>
+            <tr>
+                <th ng:repeat="(i,th) in head" ng:click="changeSorting(i) ">{{th}}<span ng:class="selectedCls(i)"></span></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng:repeat="row in body.$filter('1')">
+                <td>{{row.a}}</td>
+                <td>{{row.b}}</td>
+                <td>{{row.c}}</td>
+                <td><img class="approve_icon" src="png/{{row.d}}.png"/></td> 
+                <td><img class="approve_icon" src="png/{{row.e}}.png"/></td> 
+            </tr>
+        </tbody>
+        </table>       
+    </div> -->
+</body>
+
+</html>

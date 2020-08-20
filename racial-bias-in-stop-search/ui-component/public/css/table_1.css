@@ -1,0 +1,123 @@
+.table-1{    
+    background-color: #00293D;
+    padding:0;
+    height: 407px;
+    border-right: 10px solid #FFF;
+}
+.table-1{
+    color: #05EBBA;
+}
+
+.table-1 thead tr{
+    background-color: #003D4E;
+        padding:10px 0;
+}
+.table-1 tbody tr{
+    background-color: #00626A;
+}
+.table-1 th {
+    font-size: 13px;
+    font-weight: 100;
+    text-align: left;
+    vertical-align: middle;
+    position: relative;
+}
+.table-1 th::before{
+    content: "";
+    background: no-repeat 1px -5px url('../png/Sample-Dashboard_sort-descending-button-green.png'), no-repeat 1px 1px url('../png/Sample-Dashboard_sort ascending-button-green.png');
+    background-size: 100% 100%;
+    top: 1px;
+    right: 0;
+    width: 10px;
+    margin-top: 13px;
+    height: 13px;
+    position: absolute;
+}
+.table-1 th:first-child::before{
+    content: "";
+}
+.table-1 tr {
+  color:#05EBBA;
+  font-size:16px;
+  font-weight:normal;
+}
+.table-1 th,.table-1 td{text-align: center;}
+
+
+.table-1 th:first-child {
+  border-top-left-radius:3px;
+}
+ 
+.table-1 th:last-child {
+  border-top-right-radius:3px;
+  border-right:none;
+}
+  
+
+
+.table-1 tr:first-child {
+  border-top:none;
+}
+
+.table-1 tr:last-child {
+  border-bottom:none;
+}
+ .table-1 tr:hover td {
+  background:#00918E;
+  color:#FFFFFF;
+} 
+.table-1 tr:nth-child(odd):hover td {
+  background:rgba(255,255,255,0.3);
+}
+
+.table-1 tr td:nth-child(2n){
+  background: rgba(13, 13, 13, 0.2);
+}
+.table-1 tr:nth-child(2n){
+  background:#00918E;
+}
+/*
+
+.ng-directive.sort-false {
+         background: no-repeat 0px 3px url('../png/Sample-Dashboard_sort ascending button green.png),no-repeat 0px -6px url(../png/Sample-Dashboard_sort descending button grey.png');
+        background-size: 100% 100%;
+        width: 25px;
+        height: 22px;
+        float: right;
+        display: inline-block;
+}
+.ng-directive.sort-true {
+          background: no-repeat 0px 3px url('../png/Sample-Dashboard_sort ascending button grey.png),no-repeat 0px -6px url(../png/Sample-Dashboard_sort descending button green.png');
+            background-size: 100% 100%;
+        width: 25px;
+        height: 22px;
+        float: right;
+        display: inline-block;
+}
+*/
+
+.table-1 input[type=text] {
+    outline: none;
+    width: 100px;
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    border: 0;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 16px;
+    background-color: transparent;
+    background: no-repeat right center url('../png/Sample-Dashboard_search-icon-green.png');
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.table-1 input[type=text]:focus {
+    width: 50%;
+    border-bottom:1px solid #03B9B3;
+    background-color: #00293D;
+
+}

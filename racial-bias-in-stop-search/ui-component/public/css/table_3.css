@@ -1,0 +1,118 @@
+.table-3{    
+    background-color: #004f52;
+    padding:0;
+    height: 407px;
+}
+.table-3{
+    color: #FFF;
+}
+
+.table-3 thead tr{
+    background-color: #006264;
+        padding:10px 0;
+}
+.table-3 tbody tr{
+    background-color: #00bbaf;
+}
+.table-3 th {
+    font-size: 13px;
+    font-weight: 100;
+    text-align: left;
+    vertical-align: middle;
+    position: relative;
+}
+.table-3 th::before{
+    content: "";
+    background: no-repeat 1px -5px url('../png/Sample-Dashboard_sort-descending-button-white.png'), no-repeat 1px 1px url('../png/Sample-Dashboard_sort-ascending-button-white.png');
+    background-size: 100% 100%;
+    top: 1px;
+    right: 0;
+    width: 10px;
+    margin-top: 13px;
+    height: 13px;
+    position: absolute;
+}
+.table-3 tr {
+  color:#FFF;
+  font-size:16px;
+  font-weight:normal;
+}
+.table-3 th,.table-3 td{text-align: center;}
+
+
+.table-3 th:first-child {
+  border-top-left-radius:3px;
+}
+ 
+.table-3 th:last-child {
+  border-top-right-radius:3px;
+  border-right:none;
+}
+ .table-3 tr:first-child {
+  border-top:none;
+}
+
+.table-3 tr:last-child {
+  border-bottom:none;
+}
+ .table-3 tr:hover td {
+  background:#00918E;
+  color:#000;
+  border-top: 1px solid #22262e;
+} 
+.table-3 tr:nth-child(odd):hover td {
+  background:rgba(255,255,255,0.3);
+}
+
+.table-3 tr td:nth-child(2n){
+  background: rgba(13, 13, 13, 0.2);
+}
+.table-3 tr:nth-child(2n){
+  background:#00857b;
+}
+
+/*
+.table-3 thead span.sort-true {
+     background: url('../png/Sample-Dashboard_sort ascending button green.png') 50% 50% no-repeat; 
+         background: no-repeat 0px 3px url('../png/Sample-Dashboard_sort ascending button green.png),no-repeat 0px -6px url(../png/Sample-Dashboard_sort descending button grey.png');
+        background-size: 100% 100%;
+        width: 25px;
+        height: 22px;
+        float: right;
+        display: inline-block;
+}
+.table-3 thead span.sort-false {
+          background: no-repeat 0px 3px url('../png/Sample-Dashboard_sort ascending button grey.png),no-repeat 0px -6px url('../png/Sample-Dashboard_sort-descending-button-green.png');
+            background-size: 100% 100%;
+        width: 25px;
+        height: 22px;
+        float: right;
+        display: inline-block;
+}
+*/
+
+.table-3 input[type=text] {
+    outline: none;
+    width: 100px;
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    border: 0;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 16px;
+    background-color: transparent;
+    background: no-repeat right center url('../png/Sample-Dashboard_search-icon-white.png');
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.table-3 input[type=text]:focus {
+    width: 50%;
+    border-bottom:1px solid #00bbaf;
+    background-color: #004f52;
+
+}
